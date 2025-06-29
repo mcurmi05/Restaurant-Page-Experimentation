@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+body {
+    background-image: url("../assets/sushi2.jpg");
+    background-size:cover;
+}
+
+#nav-bar{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#nav-list{
+    display:flex;
+    justify-content: space-around;
+}
+
+.nav-button{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    height: 4vh;
+    margin-top:5vh;
+    font-weight: 650;
+    color:white;
+    border-radius: 6px;
+    font-size: 100%;
+    font-family: 'Funnel Display';
+    
+}
+
+#order-online{
+    background-color:rgb(255, 187, 0);
+}
+
+#home-logo{
+    width:5vw;
+    margin-top: -1.5vw;
+}
