@@ -3,13 +3,14 @@
     font-family: 'Funnel Display';
     color:white;
     word-spacing: 25px;
+    margin-top:-10px;
 }
 
 #home-subtitle {
     font-size:20px;
     font-family: 'Funnel Display';
     color:white;
-    margin-top:-10px;
+    margin-top:-25px;
 }
 
 .home-container{
