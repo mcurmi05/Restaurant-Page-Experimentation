@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
 
 body {
-    background-image: url("../assets/sushi4.jpeg");
+    background-image: url("../assets/home-bg.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
@@ -26,7 +26,7 @@ body {
     font-weight: 650;
     color:white;
     border-radius: 6px;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Funnel Display';
     height:40px;
     
@@ -43,23 +43,7 @@ body {
     margin-top: -1.5vw;
 }
 
-h1 {
-    font-size:60px;
-    font-family: 'Funnel Display';
-    color:white;
-    word-spacing: 25px;
-}
-
-h2 {
-    font-size:20px;
-    font-family: 'Funnel Display';
-    color:white;
-}
-
-.home-container{
+#page{
     display:flex;
-    flex-direction:column;
-    align-items: center;
-    margin-top:12vh;
-    
+    justify-content:center;
 }
