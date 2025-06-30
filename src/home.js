@@ -6,7 +6,11 @@ function renderHome() {
     clearPage();
 
     const homeContainer = document.createElement("div");
-    homeContainer.classList.add("home-container");
+    homeContainer.classList.add("home-container", "fade-in");
+
+    setTimeout(() => {
+    homeContainer.classList.add("visible");
+    }, 100);
 
     const homeTitle = document.createElement("h1");
     homeTitle.id = "home-title";
