@@ -1,39 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
 
 body {
-    background-image: url("../assets/sushi2.jpg");
-    background-size:cover;
+    background-image: url("../assets/sushi4.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
 }
 
 #nav-bar{
-    margin-left: 20%;
-    margin-right: 20%;
+    width:100%;
 }
 
 #nav-list{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap:5vw;
 }
 
 .nav-button{
     background-color: transparent;
     border: 0;
     cursor: pointer;
-    height: 4vh;
     margin-top:5vh;
     font-weight: 650;
     color:white;
     border-radius: 6px;
-    font-size: 100%;
+    font-size: 18px;
     font-family: 'Funnel Display';
+    height:40px;
     
 }
 
-#order-online{
+#orderBtn{
     background-color:rgb(255, 187, 0);
+    width:180px;
+    white-space: nowrap;
 }
 
 #home-logo{
-    width:5vw;
+    width:100px;
     margin-top: -1.5vw;
+}
+
+h1 {
+    font-size:60px;
+    font-family: 'Funnel Display';
+    color:white;
+    word-spacing: 25px;
+}
+
+h2 {
+    font-size:20px;
+    font-family: 'Funnel Display';
+    color:white;
+}
+
+.home-container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top:12vh;
+    
 }
