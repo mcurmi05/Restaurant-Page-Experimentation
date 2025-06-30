@@ -20,7 +20,7 @@ function clearPage() {
 export {clearPage};
 
 
-//renderHome();
+renderHome();
 
 homeBtn.addEventListener('click', renderHome);
 menuBtn.addEventListener('click', renderMenu);
